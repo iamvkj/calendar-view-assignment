@@ -18,16 +18,16 @@ const localizer = dateFnsLocalizer({
 
 const events = [
     {
-        title: "Raksha Bandhan (Rakhi)",
+        title: "Sawan sawari",
+        allDay: true,
+        start: new Date(2022, 7, 8),
+        end: new Date(2022, 7, 8)
+    },
+    {
+        title: "Raksha bandhan (Rakhi)",
         allDay: true,
         start: new Date(2022, 7, 11),
         end: new Date(2022, 7, 11)
-    },
-    {
-        title: "Sawan Samapti",
-        allDay: true,
-        start: new Date(2022, 7, 14),
-        end: new Date(2022, 7, 14)
     },
     {
         title: "Janmashtami",
@@ -36,11 +36,95 @@ const events = [
         end: new Date(2022, 7, 19)
     },
     {
-        title: "Ganesh Chaturthi/Vinayaka Chaturthi",
+        title: "Ganesh chaturthi | 1st day",
         allDay: true,
         start: new Date(2022, 7, 31),
         end: new Date(2022, 7, 31)
-    }
+    },
+    {
+        title: "Ganesh chaturthi | 10th day",
+        allDay: true,
+        start: new Date(2022, 8, 9),
+        end: new Date(2022, 8, 9)
+    },
+    {
+        title: "First day of shradh",
+        allDay: true,
+        start: new Date(2022, 8, 10),
+        end: new Date(2022, 8, 10)
+    },
+    {
+        title: "Last day of shradh",
+        allDay: true,
+        start: new Date(2022, 8, 25),
+        end: new Date(2022, 8, 25)
+    },
+    {
+        title: "First day of sharad navratri",
+        allDay: true,
+        start: new Date(2022, 8, 26),
+        end: new Date(2022, 8, 26)
+    },
+    {
+        title: "First day of durga puja festivities",
+        allDay: true,
+        start: new Date(2022, 9, 1),
+        end: new Date(2022, 9, 1)
+    },
+    {
+        title: "Maha saptami",
+        allDay: true,
+        start: new Date(2022, 9, 2),
+        end: new Date(2022, 9, 2)
+    },
+    {
+        title: "Maha ashtami",
+        allDay: true,
+        start: new Date(2022, 9, 3),
+        end: new Date(2022, 9, 3)
+    },
+    {
+        title: "Maha navami",
+        allDay: true,
+        start: new Date(2022, 9, 4),
+        end: new Date(2022, 9, 4)
+    },
+    {
+        title: "Dussehra",
+        allDay: true,
+        start: new Date(2022, 9, 5),
+        end: new Date(2022, 9, 5)
+    },
+    {
+        title: "Dhanteras",
+        allDay: true,
+        start: new Date(2022, 9, 23),
+        end: new Date(2022, 9, 23)
+    },
+    {
+        title: "Diwali",
+        allDay: true,
+        start: new Date(2022, 9, 24),
+        end: new Date(2022, 9, 24)
+    },
+    {
+        title: "Naraka Chaturdasi",
+        allDay: true,
+        start: new Date(2022, 9, 24),
+        end: new Date(2022, 9, 24)
+    },
+    {
+        title: "Govardhan puja",
+        allDay: true,
+        start: new Date(2022, 9, 25),
+        end: new Date(2022, 9, 25)
+    },
+    {
+        title: "Bhai duj",
+        allDay: true,
+        start: new Date(2022, 9, 26),
+        end: new Date(2022, 9, 26)
+    },
 ];
 
 const CalendarView = (props) => {

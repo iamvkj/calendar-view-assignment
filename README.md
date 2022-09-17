@@ -17,4 +17,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### `Visit`
 
 Open this link to the deployment server.
-Open [https://sparkling-biscuit-b1d1bb.netlify.app/](https://sparkling-biscuit-b1d1bb.netlify.app/) to view it in your browser.
+Open [https://teal-pasca-c9f9fa.netlify.app/](https://teal-pasca-c9f9fa.netlify.app/) to view it in your browser.
